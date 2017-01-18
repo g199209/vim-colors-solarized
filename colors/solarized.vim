@@ -300,18 +300,22 @@ elseif g:solarized_termcolors != 256 && &t_Co >= 16
     let s:green       = "2"
 elseif g:solarized_termcolors == 256
     let s:vmode       = "cterm"
+	" Background color
     let s:base03      = "234"
+	" Redundancy
     let s:base02      = "235"
-    let s:base01      = "239"
+	" Comment color
+    let s:base01      = "002"
     let s:base00      = "240"
-    let s:base0       = "244"
-    let s:base1       = "245"
+	" Normal color
+    let s:base0       = "251"
+    let s:base1       = "254"
     let s:base2       = "187"
     let s:base3       = "230"
     let s:yellow      = "136"
     let s:orange      = "166"
     let s:red         = "124"
-    let s:magenta     = "125"
+    let s:magenta     = "127"
     let s:violet      = "61"
     let s:blue        = "33"
     let s:cyan        = "37"

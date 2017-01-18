@@ -1,3 +1,5 @@
+对经典Solarized主题的配色进行了些修改，使其在使用终端运行Vim时更漂亮一些。
+
 ---
 Title: Solarized Colorscheme for Vim
 Description: Precision colors for machines and people
