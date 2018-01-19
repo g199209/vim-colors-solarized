@@ -301,9 +301,9 @@ elseif g:solarized_termcolors != 256 && &t_Co >= 16
 elseif g:solarized_termcolors == 256
     let s:vmode       = "cterm"
 	" Background color
-    let s:base03      = "233"
+    let s:base03      = "232"
 	" Redundancy, current line
-    let s:base02      = "234"
+    let s:base02      = "233"
 	" Comment color
     let s:base01      = "002"
     let s:base00      = "240"
