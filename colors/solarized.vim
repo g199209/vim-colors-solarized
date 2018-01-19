@@ -301,9 +301,9 @@ elseif g:solarized_termcolors != 256 && &t_Co >= 16
 elseif g:solarized_termcolors == 256
     let s:vmode       = "cterm"
 	" Background color
-    let s:base03      = "234"
-	" Redundancy
-    let s:base02      = "235"
+    let s:base03      = "233"
+	" Redundancy, current line
+    let s:base02      = "234"
 	" Comment color
     let s:base01      = "002"
     let s:base00      = "240"
@@ -658,7 +658,7 @@ exe "hi! DiffDelete"     .s:fmt_none   .s:fg_red    .s:bg_base02
 exe "hi! DiffText"       .s:fmt_none   .s:fg_blue   .s:bg_base02 .s:sp_blue
     endif
 endif
-exe "hi! SignColumn"     .s:fmt_none   .s:fg_none   .s:bg_base03
+exe "hi! SignColumn"     .s:fmt_none   .s:fg_none   .s:bg_base02
 exe "hi! Conceal"        .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! SpellBad"       .s:fmt_curl   .s:fg_none   .s:bg_none    .s:sp_red
 exe "hi! SpellCap"       .s:fmt_curl   .s:fg_none   .s:bg_none    .s:sp_violet
